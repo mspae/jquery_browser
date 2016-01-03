@@ -1,0 +1,5 @@
+<?php
+
+function jquery_browser_preprocess_html(&$variables) {
+  drupal_add_js(drupal_get_path('module', 'jquery_browser') . '/jquery.browser.js', 'file');
+}
